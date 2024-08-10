@@ -27,7 +27,7 @@
 }
 
 .cart-total{
-    color: rgb(153, 128, 255);
+    color: rgb(128, 255, 164);
 }
 
 .order{
@@ -64,4 +64,8 @@
     .cart-page{
         flex-wrap: wrap;
     }
+}
+
+.cartdivan{
+    border-radius: 5%;
 }

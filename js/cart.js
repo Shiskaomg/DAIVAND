@@ -6,8 +6,9 @@ let orderSection = document.querySelector(".order")
 
 function get_item(item) {
     return `<div class = "cart-item">
-        <h4 class="cart-item-title">${item.title}</h4>
         
+        <h4 class="cart-item-title">${item.title}</h4>
+        <img class="cartdivan" src="img/${item.image}" height="100px">
         <div class="cart-item-quantity">Кількість: 
         <input data-item="${item.title}" class="form-control quantity-input" type="number" name="quantity" min="1" value="${item.quantity}">
         </div>

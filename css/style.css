@@ -85,7 +85,7 @@ header{
     font-size: 1rem;
     line-height: 1rem;
     /* 120% */
-    color: rgb(154, 131, 255);
+    color: rgb(251, 226, 41);
     display: flex;
     gap: 5px;
     align-items: center;
@@ -175,7 +175,7 @@ header.fixed {
     align-items: center;
     justify-content: center;
     gap: 10px;
-    background: linear-gradient(to left, rgb(173, 154, 255), rgb(149, 110, 255));
+    background: linear-gradient(to left, rgb(253, 255, 154), rgb(245, 255, 110));
     border-radius: 30px;
     color: rgb(255, 255, 255);
     font-weight: 600;
@@ -194,7 +194,7 @@ header.fixed {
 
 
 .cart-btn:hover {
-    background: linear-gradient(to left, rgb(154, 131, 255), rgb(135, 91, 255));
+    background: linear-gradient(to left, rgb(255, 251, 0), rgb(255, 251, 0));
 }
 
 .cart-btn:active {
@@ -213,7 +213,7 @@ header.fixed {
 .cart-counter {
     background: #fff;
     font-size: small;
-    color: rgb(135, 91, 255);
+    color: rgb(255, 254, 185);
     border-radius: 100px;
     padding: 0 .2em;
     position: absolute;
@@ -252,4 +252,8 @@ header.fixed {
     75% {
         transform: rotateZ(2deg);
     }
+}
+
+.img-fluid{
+    border-radius: 5%;
 }
